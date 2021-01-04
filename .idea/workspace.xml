@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c22b5648-eec3-4704-971c-292f4b27f559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/get_datas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythoncode/Counter_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythoncode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/get_file_path.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_case_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LG-Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LG-Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/get_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/get_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datas.yml" beforeDir="false" afterPath="$PROJECT_DIR$/datas.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,31 +40,38 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\LG-Python\Pytest_demo_02" />
       <recent name="G:\LG-Python" />
       <recent name="G:\LG-Python\pythoncode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\LG-Python\conf" />
       <recent name="G:\LG-Python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_case.TestCaseDemo.test_case_divide">
-    <configuration name="pytest for test_case.TestCaseDemo.test_add" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_case_02.py">
+    <configuration name="get_file_path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LG-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conf" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.TestCaseDemo.test_add&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conf/get_file_path.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_case.TestCaseDemo.test_case_divide" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_case_02.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="LG-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,48 +83,14 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.TestCaseDemo.test_case_divide&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_case.TestCaseDemo.test_case_minus" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="LG-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.TestCaseDemo.test_case_minus&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_case.TestCaseDemo.test_case_multiply" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="LG-Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_case.TestCaseDemo.test_case_multiply&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_case_02.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_case.TestCaseDemo.test_case_divide" />
-        <item itemvalue="Python tests.pytest for test_case.TestCaseDemo.test_case_multiply" />
-        <item itemvalue="Python tests.pytest for test_case.TestCaseDemo.test_case_minus" />
-        <item itemvalue="Python tests.pytest for test_case.TestCaseDemo.test_add" />
+        <item itemvalue="Python tests.pytest in test_case_02.py" />
+        <item itemvalue="Python.get_file_path" />
       </list>
     </recent_temporary>
   </component>

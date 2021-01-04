@@ -4,6 +4,7 @@ add_datas:
   - [-1,-2,-3]
   - [-1,2,1]
   - [65535,65535,131070]
+  - [0.1,0.3,0.4]
 
 ids_add_datas:
   - "add_case_01"
@@ -11,6 +12,7 @@ ids_add_datas:
   - "add_case_03"
   - "add_case_04"
   - "add_case_05"
+  - "add_case_06"
 
 minus_datas:
   - [0,-1,1]

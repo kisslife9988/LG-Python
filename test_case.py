@@ -1,9 +1,10 @@
 import pytest
 from counter.Counter_demo import Counter
 from conf import get_datas
+from conf.get_file_path import data_path
 
 #获取测试用例需要的数据及别名
-all_datas = get_datas.get_param("datas.yml")
+all_datas = get_datas.get_param(data_path)
 print(type(all_datas))
 #获取加法运算的用例及别名
 add_params = all_datas['add_datas']
@@ -39,6 +40,8 @@ class TestCaseDemo:
     @pytest.mark.parametrize('a,b,expect',add_params,ids=ids_add_params)
     def test_add(self,a,b,expect):
         result = self.t.add(a,b)
+        if isinstance(result,float):
+            result = round(result,2)
         assert result == expect
     #减法运算的测试
     @pytest.mark.parametrize('a,b,expect',minus_params,ids=ids_minus_params)
