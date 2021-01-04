@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c22b5648-eec3-4704-971c-292f4b27f559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conf/get_file_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LG-Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LG-Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/get_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf/get_datas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas.yml" beforeDir="false" afterPath="$PROJECT_DIR$/datas.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,120 @@
+{
+  "uid" : "a08d0fe8ae7dac5",
+  "name" : "test_case_multiply[multiply_case_06]",
+  "fullName" : "test_case_02.TestCaseDemo#test_case_multiply",
+  "historyId" : "b5546ab089998b1d2b154ef348f5d987",
+  "time" : {
+    "start" : 1609770969296,
+    "stop" : 1609770969296,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1609770969202,
+      "stop" : 1609770969202,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "get_multiply_datas",
+    "time" : {
+      "start" : 1609770969295,
+      "stop" : 1609770969295,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24e0a54501ed9f61",
+      "name" : "stdout",
+      "source" : "24e0a54501ed9f61.txt",
+      "type" : "text/plain",
+      "size" : 26
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_multiply_datas::0",
+    "time" : {
+      "start" : 1609770969297,
+      "stop" : 1609770969297,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseDemo"
+  }, {
+    "name" : "host",
+    "value" : "PC201609291642"
+  }, {
+    "name" : "thread",
+    "value" : "10572-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_multiply_datas",
+    "value" : "[1, 2, 2]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)" ]
+  },
+  "source" : "a08d0fe8ae7dac5.json",
+  "parameterValues" : [ "[1, 2, 2]" ]
+}
